@@ -7,10 +7,10 @@ set -eu
 opt_pre=false # option for bump gem version
 opt_pkg=false # option for building gem package
 
-MAIN_BRANCH="master"
-RELEASE_BRANCH="production"
+MAIN_BRANCH="main"
+RELEASE_BRANCH="dev"
 
-GEM_SPEC="jekyll-theme-chirpy.gemspec"
+GEM_SPEC="jekyll-theme-purple.gemspec"
 NODE_SPEC="package.json"
 CHANGELOG="docs/CHANGELOG.md"
 CONFIG="_config.yml"
@@ -32,7 +32,7 @@ TOOLS=(
 )
 
 help() {
-  echo -e "A tool to release new version Chirpy gem.\nThis tool will:"
+  echo -e "A tool to release new version Purple gem.\nThis tool will:"
   echo "  1. Build a new gem and publish it to RubyGems.org"
   echo "  2. Merge the release branch into the default branch"
   echo
