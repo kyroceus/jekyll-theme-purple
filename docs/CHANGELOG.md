@@ -1,7 +1,33 @@
 # Changelog
 
-<<<<<<< HEAD
-=======
+## [1.0.7](https://github.com/kyroceus/jekyll-theme-purple/compare/v1.0.5...v1.0.7) (2026-06-28)
+
+### Features (upstream Chirpy v7.5.0–v7.6.0)
+
+* add edit this post link ([#2517](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2517)) ([6bd446c](https://github.com/cotes2020/jekyll-theme-chirpy/commit/6bd446ccdedbe37752cf24b1866e1e2dd9cb82c8))
+* **theme:** persist user theme preferences ([#2756](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2756)) ([7496dd4](https://github.com/cotes2020/jekyll-theme-chirpy/commit/7496dd41fa053c4636a82027fe3fb3e38357e385))
+* **ui:** optimize design of PWA update notification ([#2757](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2757)) ([5cc9dc6](https://github.com/cotes2020/jekyll-theme-chirpy/commit/5cc9dc66acb1eb9213988d3ac6de5cf5adf1a6f6))
+* add support for `fediverse:creator` meta tag ([#2593](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2593)) ([d2db439](https://github.com/cotes2020/jekyll-theme-chirpy/commit/d2db439c169c45ac683fa1c8157c6ea7e0b54b85))
+
+### Bug Fixes (upstream Chirpy v7.5.0–v7.6.0)
+
+* **giscus:** synchronize theme state during lazy loading ([#2742](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2742)) ([ceb2a41](https://github.com/cotes2020/jekyll-theme-chirpy/commit/ceb2a41463cbb6251fa257b640990a8d9717b0bb))
+* prevent Firefox from opening blank page on `mailto` links ([#2642](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2642)) ([2685b91](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2685b91957d0207c2d31dab828430c78a2fcc3d0))
+* **pwa:** avoid iOS status bar overlapping PWA content ([#2173](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2173)) ([3823212](https://github.com/cotes2020/jekyll-theme-chirpy/commit/38232120b729de653bfb42909a8dad047559438d))
+* **i18n:** localize the title ([#2610](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2610)) ([52d160f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/52d160f8574e8d0cddcaa46af114eb382fea1644))
+
+### Improvements (upstream Chirpy v7.5.0–v7.6.0)
+
+* **ui:** prevent vertical flickering caused by subtitle loading ([2db0535](https://github.com/cotes2020/jekyll-theme-chirpy/commit/2db053553bcf9606fc80c4a86959d0dd25d0446a))
+* **ui:** reduce the size of the `close` and `copy` buttons ([18cf79b](https://github.com/cotes2020/jekyll-theme-chirpy/commit/18cf79b))
+* CDN URLs switched to floating major versions for long-term stability ([832b247](https://github.com/cotes2020/jekyll-theme-chirpy/commit/832b247))
+* Bootstrap CDN URL now sourced from `cors.yml` instead of hardcoded
+
+### Purple-specific fixes
+
+* add explicit `gem "erb"` dependency to fix Ruby 3.x compatibility ([2641817](https://github.com/kyroceus/jekyll-theme-purple/commit/2641817))
+* fix `RELEASE_BRANCH` in `tools/release.sh` from `dev` to `production` ([8fc557b](https://github.com/kyroceus/jekyll-theme-purple/commit/8fc557b))
+
 ## [7.6.0](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.5.0...v7.6.0) (2026-06-20)
 
 ### Features
@@ -30,7 +56,6 @@
 
 * **i18n:** localize the title ([#2610](https://github.com/cotes2020/jekyll-theme-chirpy/issues/2610)) ([52d160f](https://github.com/cotes2020/jekyll-theme-chirpy/commit/52d160f8574e8d0cddcaa46af114eb382fea1644))
 
->>>>>>> origin/master
 ## [7.4.1](https://github.com/cotes2020/jekyll-theme-chirpy/compare/v7.4.0...v7.4.1) (2025-10-26)
 
 ### Bug Fixes
